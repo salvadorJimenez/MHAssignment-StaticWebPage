@@ -1,7 +1,38 @@
 <%provide(:title, "Welcome Mortals")%>
-<div>
+
+<div class="title" id="titleHome" >
     <h1>Welcome to Awesomeland</h1>
-    <p>Find me in app/views/static_pages/home.html.erb</p>
+    <p>Where everything is .... ammm awesome :)</p>
 </div>
-<hr class="featurette-divider">
+<hr class="divider">
+<div>
+    <p>
+        Hello friend !! :D I'll be direct and honest with you, I'm here to show you 
+        a litle part of my life and tell you a few things about me !! yeah yea i know 
+        what are you thinking, in the past i did a web page showing some hobbies 
+        and things that  I really enjoy to do, but that was different,  wasn't 
+        everything. So this time i want to be very clear and i wanna share with you
+        these static pages that literally  are pieces of my life, my heart and soul
+        :') (sometimes I'am the best poet jaja .... ok no :(  ).
+    </p>
+    <p>
+        If you are interested to know my boring life , you can click in the links below to know some things about me , about my favorite band and my favorite sport. So come on I know that you dont have nothing better to do :) so :D like says the song that i can't remember the name at this time says : "WHAT ARE YOU WAITING FOOOOOOR !!! OOHH LOVE ME  LIKE YOU DO LOVE ME LOVE ME LIKE YOU DOOO !!! aAAAAAAAAAAAAAARRRRRRRRRRRRHHHHHGGGGGGG!!!"  :D
+    </p>
+</div>
+<div>
+    <div class="row">
+        <div class="col-md-4">
+            <h2>About Me</h2>
+            <%= link_to image_tag("ctecover2.jpg"),about_me_path,:class => "imgLikns"%>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-md-4">
+            <h2>My favorite band</h2>
+            <%= link_to image_tag("ctecover2.jpg"),about_my_favorite_band_path,:class => "imgLikns"%>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-md-4">
+            <h2>My Favorite Sport</h2>
+            <%= link_to image_tag("rocketleague.jpg"),about_my_favorite_sport_path,:class => "imgLikns"%>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+</div>
 
