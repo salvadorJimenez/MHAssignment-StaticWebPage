@@ -1,3 +1,123 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Amatic SC', cursive;
+*/
+
+/*header*/
+header{
+    background: black;
+    .navbar-brand{
+        font-family:'Open Sans', sans-serif;
+        font-size: 25px;
+    }
+    ul li a{
+        font-family:'Open Sans', sans-serif;
+        font-size: 20px;
+    }
+}
+
+/*title*/
+.title{
+    color: white;
+    height: 600px; 
+    background-size: cover;
+    background-attachment: fixed !important;
+    margin-bottom: 40px;
+    h1{
+        padding-top: 230px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+        font-stretch: bolder;
+    }
+    p{
+        text-align: center;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 25px;
+    }
+}
+#titleHome{
+    background-image: image-url("fondo1.jpg") !important;
+}
+#titleAboutMe{
+    background-image: image-url("fondoOnePiece.jpg") !important;
+}
+#titleBand{
+    background-image: image-url("cte1.jpg") !important;
+}
+#titleSport{
+    background-image: image-url("fondo5.jpg") !important;
+}
+
+#text{
+    h2{
+        text-align: center;
+        margin: 30px 0px;
+        font-size: 40px;
+    }
+    p{
+        font-size: 23px;   
+        text-align: justify;
+        font-family: 'PT Sans', sans-serif;
+    }
+}
+
+.divider{
+    margin: 40px 0px;
+}
+
+#links{
+    text-align: center;
+    background: #b8b894;
+    border-radius: 5%;
+    padding-bottom: 50px;
+    h3{
+        font-family: 'Amatic SC', cursive;
+        font-weight: bold;
+        font-size: 46px;
+    }
+    .imgLikns{
+        img{
+            max-width: 300px;
+            min-width: 200px;
+            border-radius: 50%;
+        } 
+    }
+}
+
+
+/*Footer */
+
+footer{
+    background: black;
+    h4{
+        color:white;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    p{
+        color: white;
+        font-size: 16px;
+        justify-content: center;
+        text-align: justify;
+        margin-top: 15px;
+    }
+    #navigateList{
+    
+    }
+    #contactMeList{
+
+    }
+    #quote{
+
+    }
+}
